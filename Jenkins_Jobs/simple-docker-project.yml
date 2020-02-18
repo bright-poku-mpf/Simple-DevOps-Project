@@ -13,7 +13,7 @@
   - name: remove current docker image
     command: docker rmi simple-devops-image
     ignore_errors: yes
-#    register: result
+###    register: result
 #    failed_when:
 #      - result.rc == 0
 #      - '"docker" not in result.stdout'
